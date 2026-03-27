@@ -12,7 +12,7 @@
 import { Injectable } from '@angular/core';
 import { environment } from '../../environments/environment';
 import { jwtDecode } from 'jwt-decode';
-import * as CryptoJS from 'crypto-js';
+import CryptoJS from 'crypto-js';
 import { DEFAULT_CONST } from '../utils/global-strings';
 
 @Injectable({
